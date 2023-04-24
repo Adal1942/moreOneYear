@@ -3,7 +3,7 @@ let hour = document.getElementById('hour');
 let minute = document.getElementById('minute');
 let second = document.getElementById('second');
 
-let endDate = '04/25/2023 12:00:00'; // date format mm/dd/yyyy
+let endDate = '04/24/2023 12:00:00'; // date format mm/dd/yyyy
 
 let x = setInterval(function(){
     let now = new Date(endDate).getTime();
@@ -34,8 +34,8 @@ let x = setInterval(function(){
 
     if(distance < 0){
         clearInterval(x);
-        document.getElementById("time").style.display = 'none';
-        document.querySelector(".newYear").style.display = 'block';
+        document.getElementById("reloginho").style.display = 'none';
+        document.querySelector(".slide").style.display = 'block';
     }
 });
 

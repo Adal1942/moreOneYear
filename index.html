@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fd1e79e837.js" crossorigin="anonymous"></script>
     <title>Dois Anos \o/</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
 
-    <div class="container">
+    <div id="reloginho" class="container">
         
         <!-- inverted counter -->
 
@@ -25,18 +26,18 @@
             <div class="circle circle2" style="--clr: #26c5f3;" id="mn"><i></i></div>
             <div class="circle circle3" style="--clr: #f40752;" id="hr"><i></i></div>
 
-            <span style="--i:1;"><b>1</b></span>
-            <span style="--i:2;"><b>2</b></span>
-            <span style="--i:3;"><b>3</b></span>
-            <span style="--i:4;"><b>4</b></span>
-            <span style="--i:5;"><b>5</b></span>
-            <span style="--i:6;"><b>6</b></span>
-            <span style="--i:7;"><b>7</b></span>
-            <span style="--i:8;"><b>8</b></span>
-            <span style="--i:9;"><b>9</b></span>
-            <span style="--i:10;"><b>10</b></span>
-            <span style="--i:11;"><b>11</b></span>
-            <span style="--i:12;"><b>12</b></span>
+            <span style="--i:1; --clr: #fe6603;"><b>1</b></span>
+            <span style="--i:2; --clr: #ff9100;"><b>2</b></span>
+            <span style="--i:3; --clr: #ffc702;"><b>3</b></span>
+            <span style="--i:4; --clr: #ffff00;"><b>4</b></span>
+            <span style="--i:5; --clr: #91c703;"><b>5</b></span>
+            <span style="--i:6; --clr: #0eab00;"><b>6</b></span>
+            <span style="--i:7; --clr: #00a2c4;"><b>7</b></span>
+            <span style="--i:8; --clr: #0161b7;"><b>8</b></span>
+            <span style="--i:9; --clr: #0011a6;"><b>9</b></span>
+            <span style="--i:10; --clr: #6400a8;"><b>10</b></span>
+            <span style="--i:11; --clr: #c6007e;"><b>11</b></span>
+            <span style="--i:12; --clr: #fe0000;"><b>12</b></span>
         </div>
 
         <!-- digital clock -->
@@ -48,6 +49,49 @@
         </div>
     </div>
 
+        <!-- Carrousel -->
+
+        <div class="slide">
+            <div class="slides">
+    
+                <div id="voltar" class="btn">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+    
+                <div id="next" class="btn">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+    
+                <div id="atual" class="image">
+                    <img src="../assets/img/1.png" alt="">
+                </div>
+                <div class="image">
+                    <img src="../assets/img/2.png" alt="">
+                </div>
+                <div class="image">
+                    <img src="../assets/img/3.png" alt="">
+                </div>
+                <div class="image">
+                    <img src="../assets/img/4.png" alt="">
+                </div>
+                <div class="image">
+                    <img src="../assets/img/5.png" alt="">
+                </div>
+                <div class="image">
+                    <img src="../assets/img/6.png" alt="">
+                </div>
+                <div class="image">
+                    <img src="../assets/img/7.png" alt="">
+                </div>
+                <div class="image">
+                    <img src="../assets/img/8.png" alt="">
+                </div>
+            </div>
+            <div class="dots">
+            </div>
+        </div>
+
     <script src="./js/twoYears.js"></script>
+    <script src="./js/carrousel.js"></script>
 </body>
 </html>
